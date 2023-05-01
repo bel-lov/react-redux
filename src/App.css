@@ -24,3 +24,19 @@
 .filter_form {
   margin: 20px 0;
 }
+
+.btn-secondary {
+  background-image: url('./img/edit.png');
+  width: 35px;
+  height: 35px;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.btn-cancel {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(109, 109, 101);
+  color: white;
+}

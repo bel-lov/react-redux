@@ -31,7 +31,7 @@ function ServiceList() {
                     {o.name} {o.price}
                     <div>
                         <button className="btn btn-secondary" onClick={() => handleEdit(o)}>
-                            <img src="./img/edit.png" alt="edit"></img>
+                            {/* <img src="./img/edit.png" alt="edit"></img> */}
                         </button>
                         <button
                             className="btn btn-danger"

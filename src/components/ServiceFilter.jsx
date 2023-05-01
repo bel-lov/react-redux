@@ -24,7 +24,7 @@ function ServiceFilter() {
                 className="form-control"
                 onChange={handleFilter}
                 value={items.filter}
-                placeholder="Фильтрация..."
+                placeholder="Фильтрация"
             />
         </div>
     );

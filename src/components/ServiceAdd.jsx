@@ -50,7 +50,7 @@ function ServiceAdd() {
                 placeholder="Стоимость"
             />
             <button className="btn btn-primary" onClick={handleSubmit}>Save</button>
-            {item.id && <button className="btn btn-secondary" onClick={handleClear}>Cancel</button>}
+            {item.id && <button className="btn btn-cancel" onClick={handleClear}>Cancel</button>}
         </div>
     );
 }
